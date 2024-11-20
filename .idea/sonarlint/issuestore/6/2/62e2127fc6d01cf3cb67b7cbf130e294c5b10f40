@@ -1,0 +1,13 @@
+
+„
+java:S4165 "bRemove this useless assignment; "name" already holds the assigned value along all execution paths.(É´“ıÿÿÿÿ8à›™™´2
+ˆ
+java:S4165!"fRemove this useless assignment; "lastName" already holds the assigned value along all execution paths.(•÷Åùÿÿÿÿ8à›™™´2
+ƒ
+java:S4165""aRemove this useless assignment; "age" already holds the assigned value along all execution paths.(ú­³Ìúÿÿÿÿ8à›™™´2
+Q
+java:S1656 "/Remove or correct this useless self-assignment.(É´“ıÿÿÿÿ8æ›™™´2
+Q
+java:S1656!"/Remove or correct this useless self-assignment.(•÷Åùÿÿÿÿ8ä›™™´2
+Q
+java:S1656""/Remove or correct this useless self-assignment.(ú­³Ìúÿÿÿÿ8æ›™™´2

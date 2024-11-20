@@ -1,0 +1,8 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(²¥׳•8¿´א´2
+\
+java:S1128":Remove this unused import 'jm.task.core.jdbc.dao.UserDao'.(½Ûֳרÿÿÿÿ8אבצ´2
+d
+java:S1128"BRemove this unused import 'jm.task.core.jdbc.dao.UserDaoJDBCImpl'.(הֹארÿÿÿÿ8אבצ´2
+U
+java:S1128"8Remove this unused import 'jm.task.core.jdbc.util.Util'.(ץ¥דפ8אבצ´2
