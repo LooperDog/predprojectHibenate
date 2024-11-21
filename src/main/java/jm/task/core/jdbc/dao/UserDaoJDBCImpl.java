@@ -7,7 +7,6 @@ import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
 
-
 public class UserDaoJDBCImpl implements UserDao {
 
     private static final String CREATE_SQL = "CREATE TABLE IF NOT EXISTS users " +
@@ -33,7 +32,7 @@ public class UserDaoJDBCImpl implements UserDao {
             System.out.println("Таблица Users создана...");
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.err.println("Что-то не так, таблица не создана..." + e);
         }
 
     }
@@ -42,7 +41,7 @@ public class UserDaoJDBCImpl implements UserDao {
             statement.execute(DROP_SQL);
             System.out.println("Таблица Users удалена...");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.err.println("Что-то не так, таблица не удалена..." + e);
         }
 
     }
@@ -55,7 +54,7 @@ public class UserDaoJDBCImpl implements UserDao {
             preparedStatement.executeUpdate();
             System.out.println("User с именем – " + name + " добавлен в базу данных.");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.err.println("Пользователь с именем - " + name + "не был добавлен... " + e);
         }
     }
 
@@ -65,7 +64,7 @@ public class UserDaoJDBCImpl implements UserDao {
             preparedStatement.executeUpdate();
             System.out.println("User с ID — " + id + " удален.");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.err.println("Пользователь не удален..." + e);
         }
     }
 
@@ -82,7 +81,7 @@ public class UserDaoJDBCImpl implements UserDao {
                 users.add(user);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.err.println("Что-то пошло не так " + e);
         }
         return users;
     }
@@ -92,7 +91,7 @@ public class UserDaoJDBCImpl implements UserDao {
             statement.execute(CLEAN_SQL);
             System.out.println("Таблица Users очищена...");
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.err.println("Таблица не очищена..."+ e);
         }
     }
 }
