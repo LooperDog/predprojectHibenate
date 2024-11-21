@@ -4,48 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38441da6-55a8-4f92-b004-83c965f1caf0" name="Changes" comment="my_predproject">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/2508f23009d5396fdb955e14326051c8705da2f2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38c423629919cbf2b55c4a58d0acc2d101f2baaa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7afcbd7f6dfd1d24aae678829f5be978eda37b85" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5999c75df125d91668baa312d9d0ba17e256221" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c22485066ccc4d3ce13a5414ce194a4f3195bc2a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c48318b1c79625c0e8729234faa56a5674eb0acf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd6444259ba76cd23db949bc82242522212630e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3fe6d09e853cef3d8d50827e95d035497603b1a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f229ee8f3726c568fa5d87034a1c33b90581fc93" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/5/2508f23009d5396fdb955e14326051c8705da2f2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/8/38c423629919cbf2b55c4a58d0acc2d101f2baaa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/a/7afcbd7f6dfd1d24aae678829f5be978eda37b85" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/5/b5999c75df125d91668baa312d9d0ba17e256221" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/2/c22485066ccc4d3ce13a5414ce194a4f3195bc2a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c48318b1c79625c0e8729234faa56a5674eb0acf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/d/cd6444259ba76cd23db949bc82242522212630e6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/3/e3fe6d09e853cef3d8d50827e95d035497603b1a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f229ee8f3726c568fa5d87034a1c33b90581fc93" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resourses/resourses.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34d4aa166bffbba6637c9f7d46557303f439ce01" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34d4aa166bffbba6637c9f7d46557303f439ce01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62e2127fc6d01cf3cb67b7cbf130e294c5b10f40" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62e2127fc6d01cf3cb67b7cbf130e294c5b10f40" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8ca9d994c9918b797bc9ba8824095a0f0fe7cee0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8ca9d994c9918b797bc9ba8824095a0f0fe7cee0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9796930b00efb6481db6216a9555b1822805bfa3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/9796930b00efb6481db6216a9555b1822805bfa3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a68323c79bf41c7be7c97f3a26451fb9c79236ef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a68323c79bf41c7be7c97f3a26451fb9c79236ef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f61bc8cc983455b547d554cfd3bddb383ad8d3bd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f61bc8cc983455b547d554cfd3bddb383ad8d3bd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="38441da6-55a8-4f92-b004-83c965f1caf0" name="Changes" comment="creating JDBC structure and implementing methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskJDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TaskJDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731675867146</updated>
       <workItem from="1732092452428" duration="10499000" />
-      <workItem from="1732105010075" duration="309000" />
+      <workItem from="1732105010075" duration="2016000" />
     </task>
     <task id="LOCAL-00001" summary="my_predproject">
       <option name="closed" value="true" />
@@ -215,7 +175,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731746954050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creating JDBC structure and implementing methods">
+      <option name="closed" value="true" />
+      <created>1732105646222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732105646222</updated>
+    </task>
+    <task id="LOCAL-00003" summary="creating JDBC structure and implementing methods">
+      <option name="closed" value="true" />
+      <created>1732105744460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732105744460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="creating JDBC structure and implementing methods">
+      <option name="closed" value="true" />
+      <created>1732105781893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732105781893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +219,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="my_predproject" />
-    <option name="LAST_COMMIT_MESSAGE" value="my_predproject" />
+    <MESSAGE value="creating JDBC structure and implementing methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating JDBC structure and implementing methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
