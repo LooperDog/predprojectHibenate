@@ -1,11 +1,12 @@
 package jm.task.core.jdbc;
 
+import jm.task.core.jdbc.dao.UserDaoHibernateImpl;
 import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
 
 public class Main {
     public static void main(String[] args) {
         // реализуйте алгоритм здесь
-        UserDaoJDBCImpl userDao = new UserDaoJDBCImpl();
+        UserDaoHibernateImpl userDao = new UserDaoHibernateImpl();
 
         userDao.createUsersTable();
 
@@ -16,8 +17,8 @@ public class Main {
 
         userDao.getAllUsers().forEach(System.out::println);
 
-        userDao.cleanUsersTable();
-        userDao.dropUsersTable();
+        //userDao.cleanUsersTable();
+        //userDao.dropUsersTable();
     }
 }
 
