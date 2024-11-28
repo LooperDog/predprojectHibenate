@@ -1,23 +1,23 @@
 package jm.task.core.jdbc;
 
-import jm.task.core.jdbc.dao.UserDaoHibernateImpl;
+import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
 
 public class Main {
     public static void main(String[] args) {
         // реализуйте алгоритм здесь
-        UserDaoHibernateImpl dao = new UserDaoHibernateImpl();
+        UserDaoJDBCImpl userDao = new UserDaoJDBCImpl();
 
-        dao.createUsersTable();
+        userDao.createUsersTable();
 
-        dao.saveUser("John", "Doe", (byte) 25);
-        dao.saveUser("Jane", "Smith", (byte) 30);
-        dao.saveUser("Michael", "Brown", (byte) 35);
-        dao.saveUser("Emily", "Davis", (byte) 40);
+        userDao.saveUser("John", "Doe", (byte) 25);
+        userDao.saveUser("Jane", "Smith", (byte) 30);
+        userDao.saveUser("Michael", "Brown", (byte) 35);
+        userDao.saveUser("Emily", "Davis", (byte) 40);
 
-        dao.getAllUsers().forEach(System.out::println);
+        userDao.getAllUsers().forEach(System.out::println);
 
-        dao.cleanUsersTable();
-        dao.dropUsersTable();
+        userDao.cleanUsersTable();
+        userDao.dropUsersTable();
     }
 }
 

@@ -2,10 +2,14 @@ package jm.task.core.jdbc.util;
 
 import jm.task.core.jdbc.model.User;
 import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class Util {
     // реализуйте настройку соеденения с БД
@@ -27,9 +31,27 @@ public class Util {
         return connection;
     }
 
-    private static final Configuration config = new Configuration().addAnnotatedClass(User.class);
+    private static SessionFactory sessionFactory;
     public static SessionFactory getSessionFactory() {
-        return config.buildSessionFactory();
+        if (sessionFactory == null) {
+            try {
+                Configuration configuration = new Configuration();
+                Properties sitting = new Properties();
+                sitting.put("hibernate.connection.url", URL);
+                sitting.put("hibernate.connection.username", USER);
+                sitting.put("hibernate.connection.password", PASSWORD);
+                sitting.put("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+                sitting.put("hibernate.show_sql", "true");
+                sitting.put("hibernate.hbm2ddl.auto", "update");
+                configuration.setProperties(sitting);
+                configuration.addAnnotatedClass(User.class);
+                ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
+                sessionFactory = configuration.buildSessionFactory(serviceRegistry);
+            } catch (Throwable ex) {
+                System.err.println("Initial SessionFactory creation failed." + ex);
+            }
+        }
+        return sessionFactory;
     }
 }
 
