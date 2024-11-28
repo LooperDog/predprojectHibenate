@@ -15,6 +15,7 @@ public class UserDaoHibernateImpl implements UserDao {
     private static final SessionFactory sessionFactory = Util.getSessionFactory();
 
     public UserDaoHibernateImpl() {
+
     }
 
     @Override
@@ -50,7 +51,7 @@ public class UserDaoHibernateImpl implements UserDao {
     public void saveUser(String name, String lastName, byte age) {
         try (Session session = sessionFactory.openSession()) {
             session.beginTransaction();
-            session.save(new User());
+            session.save(new User(name,lastName,age));
             session.getTransaction().commit();
             System.out.println("User с именем – " + name + " добавлен в базу данных.");
         } catch (Exception e) {

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38441da6-55a8-4f92-b004-83c965f1caf0" name="Changes" comment="remade the connection to the database, corrected the value in Main">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b4120e64-30c3-447c-8eb4-086167295303.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b4120e64-30c3-447c-8eb4-086167295303.xml" afterDir="false" />
+    <list default="true" id="38441da6-55a8-4f92-b004-83c965f1caf0" name="Changes" comment="added annotations for User">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +183,7 @@
       <workItem from="1732698496933" duration="353000" />
       <workItem from="1732699156536" duration="4772000" />
       <workItem from="1732774818653" duration="4049000" />
-      <workItem from="1732784790016" duration="4947000" />
+      <workItem from="1732784790016" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="my_predproject">
       <option name="closed" value="true" />
@@ -299,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732776808028</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added annotations for User">
+      <option name="closed" value="true" />
+      <created>1732793764360</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732793764360</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,19 +364,25 @@
     <MESSAGE value="creating Hibernate structure and implementing methods and delete unnecessary imports" />
     <MESSAGE value="The removeUserById method has been corrected and changes have been added to UserServiceImpl" />
     <MESSAGE value="remade the connection to the database, corrected the value in Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="remade the connection to the database, corrected the value in Main" />
+    <MESSAGE value="added annotations for User" />
+    <option name="LAST_COMMIT_MESSAGE" value="added annotations for User" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java</url>
-          <line>20</line>
-          <properties class="jm.task.core.jdbc.dao.UserDaoHibernateImpl" method="createUsersTable">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java</url>
+          <line>19</line>
+          <properties class="jm.task.core.jdbc.util.Util" method="getConnection">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
